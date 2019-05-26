@@ -14,13 +14,13 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The dataset includes the following files:
 
-- `tidyData.csv`: the main dataset file, see below
+- `tidyData.txt`: the main dataset file, see below
 - `README.md`: the description of the project
 - `CodeBook.md`: this file, the description of the data
 
 # The Data Format
 
-The `tidyData.csv` file contains 68 columns: activity name, subject
+The `tidyData.txt` file contains 68 columns: activity name, subject
 number, and the average of each variable for each activity and each
 subject.
 

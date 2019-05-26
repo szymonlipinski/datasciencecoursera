@@ -67,6 +67,6 @@ data$Activity <- factor(data[, Activity], levels=activityLabels$activityClass, l
 data %>%
     melt(id = c("Activity", "SubjectNumber")) %>%
     dcast(Activity + SubjectNumber ~ variable, fun = mean) %>%
-    fwrite(file = file.path(main_path, "tidyData.csv"), quote = FALSE)
+    fwrite(file = file.path(main_path, "tidyData.txt"), quote = FALSE)
 
 

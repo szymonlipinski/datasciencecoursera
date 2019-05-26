@@ -9,9 +9,9 @@ Files](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%
 # The Files
 
 * `run_analysis.R` - file with code which downloads the zip file, unpacks
-  it, makes the analysis, and creates the `tidyData.csv` file
+  it, makes the analysis, and creates the `tidyData.txt` file
 * `README.md` - this file
 * `dataFiles.zip` - file with source data files
 * 'UCI HAR Dataset' - directory with unpacked `dataFilez.zip`
-* `tidyData.csv` - a CSV file with the processed data
+* `tidyData.txt` - a CSV file with the processed data
 
